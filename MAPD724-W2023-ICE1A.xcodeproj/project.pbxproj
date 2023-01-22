@@ -59,6 +59,7 @@
 		E3386654297DF06E006BFF33 /* MAPD724-W2023-ICE1A */ = {
 			isa = PBXGroup;
 			children = (
+				E33866DD297DF200006BFF33 /* Assets */,
 				E3386655297DF06E006BFF33 /* AppDelegate.swift */,
 				E3386657297DF06E006BFF33 /* GameScene.sks */,
 				E3386659297DF06E006BFF33 /* Actions.sks */,
@@ -69,6 +70,46 @@
 				E3386664297DF06F006BFF33 /* LaunchScreen.storyboard */,
 			);
 			path = "MAPD724-W2023-ICE1A";
+			sourceTree = "<group>";
+		};
+		E33866DD297DF200006BFF33 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				E33866DE297DF200006BFF33 /* images */,
+				E33866DF297DF200006BFF33 /* audio */,
+				E33866E0297DF200006BFF33 /* sprites */,
+				E33866E1297DF200006BFF33 /* fonts */,
+			);
+			name = Assets;
+			path = ../../Assets;
+			sourceTree = "<group>";
+		};
+		E33866DE297DF200006BFF33 /* images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		E33866DF297DF200006BFF33 /* audio */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = audio;
+			sourceTree = "<group>";
+		};
+		E33866E0297DF200006BFF33 /* sprites */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = sprites;
+			sourceTree = "<group>";
+		};
+		E33866E1297DF200006BFF33 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
