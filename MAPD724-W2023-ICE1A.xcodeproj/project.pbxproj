@@ -71,8 +71,8 @@
 		E338675C297DFD0F006BFF33 /* dock51.woff in Resources */ = {isa = PBXBuildFile; fileRef = E3386726297DFD0F006BFF33 /* dock51.woff */; };
 		E338675D297DFD0F006BFF33 /* dock51.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = E3386727297DFD0F006BFF33 /* dock51.woff2 */; };
 		E338675E297DFD0F006BFF33 /* Dock51.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E3386728297DFD0F006BFF33 /* Dock51.ttf */; };
-		E3386760297DFDB1006BFF33 /* ocean.png in Resources */ = {isa = PBXBuildFile; fileRef = E338675F297DFDB1006BFF33 /* ocean.png */; };
 		E3386763297DFEE5006BFF33 /* Ocean.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3386762297DFEE5006BFF33 /* Ocean.swift */; };
+		E3386765297E00D4006BFF33 /* ocean.png in Resources */ = {isa = PBXBuildFile; fileRef = E3386764297E00D4006BFF33 /* ocean.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -141,8 +141,8 @@
 		E3386726297DFD0F006BFF33 /* dock51.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = dock51.woff; sourceTree = "<group>"; };
 		E3386727297DFD0F006BFF33 /* dock51.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = dock51.woff2; sourceTree = "<group>"; };
 		E3386728297DFD0F006BFF33 /* Dock51.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Dock51.ttf; sourceTree = "<group>"; };
-		E338675F297DFDB1006BFF33 /* ocean.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ocean.png; path = ../../../../../Downloads/ocean.png; sourceTree = "<group>"; };
 		E3386762297DFEE5006BFF33 /* Ocean.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ocean.swift; sourceTree = "<group>"; };
+		E3386764297E00D4006BFF33 /* ocean.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ocean.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -214,7 +214,7 @@
 		E33866EF297DFD0F006BFF33 /* images */ = {
 			isa = PBXGroup;
 			children = (
-				E338675F297DFDB1006BFF33 /* ocean.png */,
+				E3386764297E00D4006BFF33 /* ocean.png */,
 				E33866F0297DFD0F006BFF33 /* bullet.png */,
 				E33866F1297DFD0F006BFF33 /* plane3.png */,
 				E33866F2297DFD0F006BFF33 /* plane2.png */,
@@ -382,7 +382,7 @@
 				E3386750297DFD0F006BFF33 /* explosion4.png in Resources */,
 				E3386745297DFD0F006BFF33 /* smallexplosion1.png in Resources */,
 				E3386743297DFD0F006BFF33 /* coin03.png in Resources */,
-				E3386760297DFDB1006BFF33 /* ocean.png in Resources */,
+				E3386765297E00D4006BFF33 /* ocean.png in Resources */,
 				E3386730297DFD0F006BFF33 /* planeflash2.png in Resources */,
 				E338672D297DFD0F006BFF33 /* backButton.png in Resources */,
 				E338675E297DFD0F006BFF33 /* Dock51.ttf in Resources */,

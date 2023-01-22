@@ -4,20 +4,32 @@ import GameplayKit
 
 class GameScene: SKScene {
     
-    override func sceneDidLoad() {
-        print("Game Scene Loaded")
+    //instance varaibles
+    var ocean: Ocean?
+    
+    
+    override func sceneDidLoad()
+    {
+        name = "GAME"
+        
+        //add the ocean to the Scene
+        ocean = Ocean()
+        ocean?.Reset()
+        addChild(ocean!)
     }
     
-    
-    func touchDown(atPoint pos : CGPoint) {
+    func touchDown(atPoint pos : CGPoint)
+    {
         print("Touch Down")
     }
     
-    func touchMoved(toPoint pos : CGPoint) {
+    func touchMoved(toPoint pos : CGPoint)
+    {
         print("Touch Moved")
     }
     
-    func touchUp(atPoint pos : CGPoint) {
+    func touchUp(atPoint pos : CGPoint)
+    {
         print("Touch Up")
     }
     
@@ -37,6 +49,8 @@ class GameScene: SKScene {
         for t in touches { self.touchUp(atPoint: t.location(in: self)) }
     }
     
-    override func update(_ currentTime: TimeInterval) {
+    override func update(_ currentTime: TimeInterval)
+    {
+        ocean?.Update()
     }
 }
