@@ -73,6 +73,7 @@
 		E338675E297DFD0F006BFF33 /* Dock51.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E3386728297DFD0F006BFF33 /* Dock51.ttf */; };
 		E3386763297DFEE5006BFF33 /* Ocean.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3386762297DFEE5006BFF33 /* Ocean.swift */; };
 		E3386765297E00D4006BFF33 /* ocean.png in Resources */ = {isa = PBXBuildFile; fileRef = E3386764297E00D4006BFF33 /* ocean.png */; };
+		E3386767297E0426006BFF33 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3386766297E0426006BFF33 /* Player.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -143,6 +144,7 @@
 		E3386728297DFD0F006BFF33 /* Dock51.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Dock51.ttf; sourceTree = "<group>"; };
 		E3386762297DFEE5006BFF33 /* Ocean.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ocean.swift; sourceTree = "<group>"; };
 		E3386764297E00D4006BFF33 /* ocean.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ocean.png; sourceTree = "<group>"; };
+		E3386766297E0426006BFF33 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -298,6 +300,7 @@
 			isa = PBXGroup;
 			children = (
 				E3386762297DFEE5006BFF33 /* Ocean.swift */,
+				E3386766297E0426006BFF33 /* Player.swift */,
 			);
 			path = GameObjects;
 			sourceTree = "<group>";
@@ -434,6 +437,7 @@
 				E33866E6297DF94F006BFF33 /* GameProtocol.swift in Sources */,
 				E338665C297DF06E006BFF33 /* GameScene.swift in Sources */,
 				E338665E297DF06E006BFF33 /* GameViewController.swift in Sources */,
+				E3386767297E0426006BFF33 /* Player.swift in Sources */,
 				E3386763297DFEE5006BFF33 /* Ocean.swift in Sources */,
 				E3386656297DF06E006BFF33 /* AppDelegate.swift in Sources */,
 			);
