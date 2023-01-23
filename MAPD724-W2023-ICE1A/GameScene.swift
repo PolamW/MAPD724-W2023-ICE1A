@@ -2,15 +2,25 @@
 import SpriteKit
 import GameplayKit
 
+let screenSize = UIScreen.main.bounds
+var screenWidth: CGFloat?
+var screenHeight: CGFloat?
+
 class GameScene: SKScene {
-    
+
     //instance varaibles
     var ocean1: Ocean?
     var ocean2: Ocean?
-    
+    var player: Player?
+
     
     override func sceneDidLoad()
     {
+        screenWidth = frame.width
+        screenHeight = frame.height
+        print("Screen Width: \(String(describing: screenWidth))")
+        print("Screen Height: \(String(describing: screenHeight))")
+
         name = "GAME"
         
         //add the ocean to the Scene
@@ -22,21 +32,26 @@ class GameScene: SKScene {
         ocean2 = Ocean()
         ocean2?.position.y = -773
         addChild(ocean2!)
+        
+        //add the player to the scene
+        player = Player()
+        player?.Reset()
+        addChild(player!)
     }
     
     func touchDown(atPoint pos : CGPoint)
     {
-        print("Touch Down")
+        player?.TouchMove(newPos: CGPoint(x: pos.x, y: -495))
     }
     
     func touchMoved(toPoint pos : CGPoint)
     {
-        print("Touch Moved")
+        player?.TouchMove(newPos: CGPoint(x: pos.x, y: -495))
     }
     
     func touchUp(atPoint pos : CGPoint)
     {
-        print("Touch Up")
+        player?.TouchMove(newPos: CGPoint(x: pos.x, y: -495))
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
@@ -59,5 +74,6 @@ class GameScene: SKScene {
     {
         ocean1?.Update()
         ocean2?.Update()
+        player?.Update()
     }
 }
